@@ -8,7 +8,7 @@ const app = express();
 // Listen to requests on port 3000
 app.listen(3000);
 
-// Set up view enginer
+// Set up view engine
 app.set("view engine", "ejs");
 
 // Middleware for serving static files

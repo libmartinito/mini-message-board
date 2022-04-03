@@ -7,6 +7,13 @@
   <title>MMB | <%=title%></title>
 </head>
 <body>
-  
+  <h1>New Message</h1>
+  <form action="/new" method="POST">
+    <label for="author">Author</label>
+    <input type="text" name="author" id="author"/>
+    <label for="message">Message</label>
+    <textarea name="message" id="message"></textarea>
+    <button type="submit">Submit</button>
+  </form>
 </body>
 </html>
